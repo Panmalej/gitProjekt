@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - možná by bylo vhodnější zvolit název třídy a souboru PojistenaOsoba, Pojistenec
+2. Dodržení principů SRP a SoC - SRP = Single Responsibility Principle, tedy princip jedné odpovědnosti. Jedna třída by neměla mít více odpovědností, např. že nejenom spravuje databázovou tabulku, ale také vypisuje data do konzole. Výsledkem pak je, že takovou třídu není možné použít v jiném kontextu, např. pokud bychom měli okenní nebo webovou aplikaci.
+3. Vhodný výběr datových typů - ok
+4. Formátování kódu - ok
+5. Duplicitní kód a nekonečné cykly - ok
+6. Validace vstupních dat - chybí! nikde se neřeší kontrola vstupních dat (délka, formát, vyplněná hodnota, ...), to dosti ohrožuje integritu dat v db
+7. Logičnost a složitost - celá aplikace by šla rozdělit do více tříd (alespoň 3 - 4 třídy) a nemíchat logickou vrstvu s prezenční (viz. SRP)
+8. Komentáře - chybí!
+9. Celkové hodnocení - projekt má potenciál a byla by škoda jej nedotáhnout do konce
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
